@@ -3,7 +3,8 @@
 
   <head>
   	  <title>CSS Coming Soon</title>
-	  <link rel="stylesheet" href="styles/styles.css">
+	  <!--<link rel="stylesheet" href="styles/styles.css">-->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
       <meta charset="utf-8">
 	  
 	  <link rel="stylesheet"
@@ -11,15 +12,20 @@
   </head>
 
   <body id="myPage" data-target=".navbar">
-	  <h1>Tony Sulfaro</h1>
 	  
-	  <div class="topNav">
-	  	<a class="active" href="#home">Home</a>
-		  <a class="active" href="#about">About</a>
-		  <a class="active" href="#home">Education</a>
-		  <a class="active" href="#home">Experience</a>
-		  <a class="active" href="#home">Skills</a>
-	  </div>
+	  <nav>
+		<div class="nav-wrapper">
+		  <a href="#" class="brand-logo">Tony Sulfaro</a>
+		  <ul id="nav-mobile" class="right hide-on-med-and-down">
+			  <li><a href="About">About</a></li>
+			  <li><a href="badges.html">Experience</a></li>
+			  <li><a href="collapsible.html">Programming Languages</a></li>
+			  <li><a href="collapsible.html">Design Patterns</a></li>
+			  <li><a href="collapsible.html">Skills</a></li>
+			  <li><a href="collapsible.html">Projects</a></li>
+		  </ul>
+		</div>
+	  </nav>
 	  
 	  <div id="about">
 		  <h3>About</h3>
@@ -34,54 +40,57 @@
 	  
 	  <div id="experience">
 		  <h3>Experience</h3>
-		  <p>Nexteer Automotive (May 2017- August 2017)</p>
-		  <ul>
-		  	  <li>Gathered business, integration, data alalytic, and advanced reporting requirements</li>
-			  <li>Developed SQL scripts to create views for reporting via Power BI</li>
-			  <li>Generated reporting based on Nexteer master data attributes with Power BI and SSRS</li>
-			  <li>Developed and supported new analytic and business intelligence reporting objects</li>
-			  <li>Worked with technical and business teams to evaluate new technological components</li>
+		  <ul class="collection with-header">
+			  <li class="collection-header"><h5>Nexteer Automotive (May 2017- August 2017)</h5></li>
+		  	  <li class="collection-item">Gathered business, integration, data alalytic, and advanced reporting requirements</li>
+			  <li class="collection-item">Developed SQL scripts to create views for reporting via Power BI</li>
+			  <li class="collection-item">Generated reporting based on Nexteer master data attributes with Power BI and SSRS</li>
+			  <li class="collection-item">Developed and supported new analytic and business intelligence reporting objects</li>
+			  <li class="collection-item">Worked with technical and business teams to evaluate new technological components</li>
 		  </ul>
-		  <p>Nexteer Automotive (May 2018- August 2018)</p>
-		  <ul>
-		  	  <li>Developed C# applications to interface with SQL Server to push and pull data</li>
-			  <li>Generated stored procedures to log all modifications to tables and improve database security</li>
-			  <li>Created an API using Node.js to manage SQL Server data</li>
-			  <li>Created a front-end to interface with the SQL API, utilizing Javascript for client-side code and CSS/HTML for the styling</li>
+		  
+		  <ul class="collection with-header">
+			  <li  class="collection-item"><h5>Nexteer Automotive (May 2018- August 2018)</h5></li>
+		  	  <li class="collection-item">Developed C# applications to interface with SQL Server to push and pull data</li>
+			  <li class="collection-item">Generated stored procedures to log all modifications to tables and improve database security</li>
+			  <li class="collection-item">Created an API using Node.js to manage SQL Server data</li>
+			  <li class="collection-item">Created a front-end to interface with the SQL API, utilizing Javascript for client-side code and CSS/HTML for the styling</li>
 		  </ul>
 	  </div>
 	  
 	  <div id="programming Languages">
 		  <h3>Programming Languages</h3>
-		  <ul>
-		  	  <li>Python</li>
-			  <li>C++</li>
-			  <li>C# + WPF</li>
-			  <li>Javascript (Node.js)</li>
-			  <li>Java</li>
-			  <li>MSSQL</li>
-			  <li>HTML5/CSS3</li>
+		  <ul class="collection with-header">
+			  <a class="waves-effect waves-light btn">Python</a>
+			  <a class="waves-effect waves-light btn">C++</a>
+			  <a class="waves-effect waves-light btn">C# + WPF</a>
+			  <a class="waves-effect waves-light btn">Javascript (Node.js)</a>
+			  <a class="waves-effect waves-light btn">Java</a>
+			  <a class="waves-effect waves-light btn">MSSQL</a>
+			  <a class="waves-effect waves-light btn">HTML5/CSS3</a>
 		  </ul>
 	  </div>
 	  
 	  <div id="programming Design Patterns">
-		  <h3>Program Design Patterns</h3>
-		  <ul>
-		  	  <li>Object Orentated Programming</li>
-			  <li>MVVM</li>
+		  <ul class="collection with-header">
+			  <li class="collection-header"><h3>Program Design Patterns</h3></li>
+		  	  <li class="collection-item">Object Orentated Programming</li>
+			  <li class="collection-item">MVVM</li>
 		  </ul>
 	  </div>
 	  
 	  <div id="skills">
-		  <h3>Skills</h3>
-		  <ul>
-		  	  <li>Microsoft office Squite</li>
-			  <li>Microsoft Power BI</li>
-			  <li>SQL Server Management Studio</li>
+		  <ul class="collection with-header">
+			  <li class="collection-header"><h3>Skills</h3></li>
+		  	  <li class="collection-item">Microsoft office Squite</li>
+			  <li class="collection-item">Microsoft Power BI</li>
+			  <li class="collection-item">SQL Server Management Studio</li>
 		  </ul>
 	  </div>
 	  
-      <script src="script.js"></script>
+      <!--<script src="script.js"></script>-->
+	  <!-- Javascript for materialize CSS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
   </body>
 
 </html>
