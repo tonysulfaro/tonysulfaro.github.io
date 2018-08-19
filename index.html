@@ -3,22 +3,23 @@
 
   <head>
   	  <title>Tony Sulfaro</title>
-	  <!--<link rel="stylesheet" href="styles/styles.css">-->
+	  <link rel="stylesheet" href="styles/styles.css">
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
       <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  
 	  <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Roboto">
+	  
+	  
   </head>
 
   <body id="myPage" data-target=".navbar">
-	  
 	  <div class="navbar-fixed">
-		  <nav class="blue">
-		  <div class="nav-wrapper">
-		  
-			  <div class="container">
-				  <a href="#" class="brand-logo left">Tony Sulfaro</a>
+	  		<nav class="blue">
+			  <div class="nav-wrapper"> 
+				  <div class="container">
+					  <a href="#" class="brand-logo">Tony Sulfaro</a>
 				  <ul id="nav-mobile" class="right hide-on-med-and-down">
 					  <li><a href="#education">Education</a></li>
 					  <li><a href="#experience">Experience</a></li>
@@ -26,55 +27,60 @@
 					  <li><a href="#skills">Skills</a></li>
 					  <li><a href="#projects">Projects</a></li>
 				  </ul>
-			</div>
-		  
+				  </div>				  
+				  </div>
+		  </nav>
 		  </div>
-		
-	  	</nav>
+	  
+	  <div id="about">
+		  <div class="container">
+		  		<h4>About</h4>
+				<p>Hello there, My name is Tony and I am a student at Michigan State Studying Computer Science. I like making APIs and breaking stuff. Golf and fishing are my favorite things to do in my spare time.</p>
+		  </div>
 	  </div>
-	  
-    <!--<div class="parallax-container">
-      <div class="parallax"><img src="images/me.JPG"></div>
-    </div>-->
-	  
-	  <div class="container">
-	  
-		  <div id="about">
-		  
-		  <h4>About</h4>
-		  	<p>Hello there, My name is Tony and I am a student at Michigan State Studying Computer Science. I like making APIs and breaking stuff. Golf and fishing are my favorite things to do in my spare time.</p>
+
+	  <div id="education">
+		  <div class="container">
+			  <div class="row">
+			  		<h4>Education</h4>
+					<p>Michigan State University (Graduating May 2020) -
+				  GPA 3.36</p>
+			  </div>
 		  </div>
+	  </div>
 
-		  <div id="education">
-			  <h4>Education</h4>
-			  <p>Michigan State University (Graduating May 2020) -
-			  GPA 3.36</p>
-		  </div>
+	  <div id="experience">
+		  <div class="container">
+			  <div class="row">
+			  		<div class="col sm12 m12">
+					  <h4>Experience</h4>
+					  <ul class="collection with-header">
+						  <li class="collection-header"><h5>Nexteer Automotive (May 2017- August 2017)</h5></li>
+						  <li class="collection-item">Gathered business, integration, data alalytic, and advanced reporting requirements</li>
+						  <li class="collection-item">Developed SQL scripts to create views for reporting via Power BI</li>
+						  <li class="collection-item">Generated reporting based on Nexteer master data attributes with Power BI and SSRS</li>
+						  <li class="collection-item">Developed and supported new analytic and business intelligence reporting objects</li>
+						  <li class="collection-item">Worked with technical and business teams to evaluate new technological components</li>
+					  </ul>
 
-		  <div id="experience">
-			  <h4>Experience</h4>
-			  <ul class="collection with-header">
-				  <li class="collection-header"><h5>Nexteer Automotive (May 2017- August 2017)</h5></li>
-				  <li class="collection-item">Gathered business, integration, data alalytic, and advanced reporting requirements</li>
-				  <li class="collection-item">Developed SQL scripts to create views for reporting via Power BI</li>
-				  <li class="collection-item">Generated reporting based on Nexteer master data attributes with Power BI and SSRS</li>
-				  <li class="collection-item">Developed and supported new analytic and business intelligence reporting objects</li>
-				  <li class="collection-item">Worked with technical and business teams to evaluate new technological components</li>
-			  </ul>
+					  <ul class="collection with-header">
+						  <li  class="collection-item"><h5>Nexteer Automotive (May 2018- August 2018)</h5></li>
+						  <li class="collection-item">Developed C# applications to interface with SQL Server to push and pull data</li>
+						  <li class="collection-item">Generated stored procedures to log all modifications to tables and improve database security</li>
+						  <li class="collection-item">Created an API using Node.js to manage SQL Server data</li>
+						  <li class="collection-item">Created a front-end to interface with the SQL API, utilizing Javascript for client-side code and CSS/HTML for the styling</li>
+						  <li class="collection-item">Secured Javascript API and Client using Self Signed SSL certificates</li>
+						  <li class="collection-item">Deployed Javascript applications to IIS Server on-site with process managers to keep applications alive</li>
+					  </ul>
+				  </div>
+			  </div>
+		  		
+		  </div> 
+	  </div>
 
-			  <ul class="collection with-header">
-				  <li  class="collection-item"><h5>Nexteer Automotive (May 2018- August 2018)</h5></li>
-				  <li class="collection-item">Developed C# applications to interface with SQL Server to push and pull data</li>
-				  <li class="collection-item">Generated stored procedures to log all modifications to tables and improve database security</li>
-				  <li class="collection-item">Created an API using Node.js to manage SQL Server data</li>
-				  <li class="collection-item">Created a front-end to interface with the SQL API, utilizing Javascript for client-side code and CSS/HTML for the styling</li>
-				  <li class="collection-item">Secured Javascript API and Client using Self Signed SSL certificates</li>
-				  <li class="collection-item">Deployed Javascript applications to IIS Server on-site with process managers to keep applications alive</li>
-			  </ul>
-		  </div>
-
-		  <div id="programming languages">
-			  <h4>Programming Languages</h4>
+	  <div id="programming languages">
+		  <div class="container">
+		  	  <h4>Programming Languages</h4>
 			  <ul class="collection with-header">
 				  <a class="waves-effect waves-light btn grey">Python</a>
 				  <a class="waves-effect waves-light btn grey">C++</a>
@@ -85,30 +91,40 @@
 				  <a class="waves-effect waves-light btn grey">HTML5/CSS3</a>
 			  </ul>
 		  </div>
+	  </div>
 
-		  <div id="design patterns">
-			  <ul class="collection with-header">
-				  <li class="collection-header"><h4>Program Design Patterns</h4></li>
-				  <li class="collection-item">Object Orentated Programming</li>
-				  <li class="collection-item">MVVM</li>
-			  </ul>
+	  <div id="design patterns">
+		  <div class="row">
+		  		<div class="col s12 m12">
+			  		<div class="container">
+					  <ul class="collection with-header">
+					  <li class="collection-header"><h4>Program Design Patterns</h4></li>
+					  <li class="collection-item">Object Orentated Programming</li>
+					  <li class="collection-item">MVVM</li>
+				  </ul>
+			  </div>
 		  </div>
+		  
+		  </div> 
+	  </div>
 
-		  <div id="skills">
-			  <ul class="collection with-header">
+	  <div id="skills">
+		  <div class="container">
+				<ul class="collection with-header">
 				  <li class="collection-header"><h4>Skills</h4></li>
 				  <li class="collection-item">Microsoft office Squite</li>
 				  <li class="collection-item">Microsoft Power BI</li>
 				  <li class="collection-item">SQL Server Management Studio</li>
 			  </ul>
 		  </div>
+	  </div>
 
-		  <div id="projects">
-			<h4>Projects</h4>
-
+	  <div id="projects">
+		  <div class="container">
 			  <div class="row">
-
-					<div class="col s12 l4">
+		  	  		<h4>Projects</h4>
+			  
+					<div class="col s12 m6 l3">
 				  <div class="card medium">
 					<div class="card-image">
 					  <img src="images/python.png">
@@ -124,7 +140,7 @@
 				</div>
 
 
-				  <div class="col s12 l4">
+				  <div class="col s12 m6 l3">
 				  <div class="card medium">
 					<div class="card-image">
 					  <img src="images/c++.png">
@@ -139,7 +155,7 @@
 				  </div>
 				</div>
 
-				  <div class="col s12 l4">
+				  <div class="col s12 m6 l3">
 				  <div class="card medium">
 					<div class="card-image">
 					  <img src="images/mssql.png">
@@ -154,7 +170,7 @@
 				  </div>
 				</div>
 
-				  <div class="col s12 l4">
+				  <div class="col s12 m6 l3">
 				  <div class="card medium">
 					<div class="card-image">
 					  <img src="images/msu-fishing.jpg">
@@ -164,14 +180,12 @@
 					  <p>The Michigan State Fishing Club's website wasn't looking too hot so I made one.</p>
 					</div>
 					<div class="card-action">
-					  <a href="https://github.com/tonysulfaro/MSUfishing" target="_blank">Github Link</a>
+					  <a href="https://www.tonysulfaro.com/MSUfishing/" target="_blank">Page Link</a>
 					</div>
 				  </div>
 				</div>
-
 			  </div>
 		  </div>
-		  
 	  </div>
 	  
       <!--<script src="script.js"></script>-->
@@ -198,8 +212,9 @@
 	  </div>
 	  <div class="footer-copyright">
 		<div class="container">
-		Created By Tony Sulfaro - 2018
+			Created By Tony Sulfaro - 2018
 		</div>
+		  
 	  </div>
 	</footer>
 
