@@ -13,3 +13,9 @@ $(document).ready(function(){
   $(document).ready(function(){
     $('.parallax').parallax();
   });
+
+  $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+  });
+
+console.log('oh hey there ( ͡° ͜ʖ ͡°)');
