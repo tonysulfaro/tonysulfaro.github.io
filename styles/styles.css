@@ -1,6 +1,5 @@
 body {
 	font-family: roboto;
-	//padding-top: 65px;
 }
 
 img-gradient{
@@ -30,9 +29,9 @@ img-gradient{
   /* IE6-9 */
 }
 
-.image-ovverides{
-	max-height: 100%;
-	max-width: 100%;
-	height: auto;
-	width: auto;
+image-ovverides{
+	
+	
+	width="100%" 
+	height="100%"
 }
