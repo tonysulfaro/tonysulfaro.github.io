@@ -1,408 +1,170 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
 
 <head>
-    <title>Tony Sulfaro</title>
-    <meta name="Description" content="Personal portfolio for Tony Sulfaro (Myself)">
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/materialize/css/materialize.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta charset="utf-8">
+
+    <title>test</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134217303-2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-134217303-2');
-    </script>
-
-    <div class="navbar-fixed">
-        <nav class="blue darken-2">
-            <div class="nav-wrapper">
-                <div class="container">
-                    <a href="#myPage" class="brand-logo" target="_blank" rel="noopener">Tony Sulfaro</a>
-                    <a href="#" data-target="nav-mobile" class="sidenav-trigger" target="_blank" rel="noopener"><i class="material-icons">menu</i></a>
-                    <ul id="nav-desktop" class="right hide-on-med-and-down">
-                        <li><a class="sidenav-close" href="#about" target="_blank" rel="noopener">About</a></li>
-                        <li><a class="sidenav-close" href="#education" target="_blank" rel="noopener">Education</a></li>
-                        <li><a class="sidenav-close" href="#coursework" target="_blank" rel="noopener">Coursework</a></li>
-                        <li><a href="#programming languages" target="_blank" rel="noopener">Programming Languages</a></li>
-                        <li><a href="#projects" target="_blank" rel="noopener">Projects</a></li>
-                        <li><a href="/images/SulfaroAnthony.pdf" target="_blank" rel="noopener">Resume</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <ul id="nav-mobile" class="sidenav">
-        <li><a class="sidenav-close" href="#about">About</a></li>
-        <li><a class="sidenav-close" href="#education">Education</a></li>
-        <li><a class="sidenav-close" href="#coursework">Coursework</a></li>
-        <li><a class="sidenav-close" href="#programming languages">Programming Languages</a></li>
-        <li><a class="sidenav-close" href="#projects">Projects</a></li>
-        <li><a class="sidenav-close" href="/images/Experience.pdf" target="_blank">Resume</a></li>
-    </ul>
 </head>
 
-<body id="myPage" data-target=".navbar">
-    <div class="parallax-container">
-        <div class="parallax"><img src="images/tony.jpg"></div>
-    </div>
-    <!--
-    <div class="parallax-container">
-        <picture>
-            <source type="image/webp" srcset="images/tony.webp">
-            <source type="image/jpeg" srcset="images/tony.jpg">
-            <img src="images/tony.jpg" width="100%" height="50%" title="Photo Credit: Sadie Layher">
-        </picture>
-        <img src="images/tony.jpg" alt="event" width="100%" height="50%" title="Photo Credit: Sadie Layher">
-    </div>
--->
+<body>
 
-    <br>
-    <div id="about" class="selection scrollspy container">
-        <h4>About</h4>
-        <p>Hello there, My name is Tony and I am a student at Michigan State, studying Computer Science with a focus in human-centered technology design. I enjoy working with data and finding new ways to interface with it either directly or through APIs. I'm an avid walleye and trout fisherman and love playing golf.</p>
-    </div>
+    <div class="sidenav">
 
+        <p class="profile-img"><img src="images/portrait.jpg"></p>
+        <h1>Tony Sulfaro</h1>
 
-    <br>
-    <div id="education" class="selection scrollspy container">
-        <h4>Education</h4>
-        <p>Michigan State University (Graduating May 2020) -
-            GPA 3.24
-        </p>
-    </div>
-
-    <br>
-    <div id="affiliations" class="row container selection scrollspy">
-        <h4>Affiliations</h4>
-
-        <div class="col s12 m6 l4">
-            <div class="card small">
-                <div class="card-image img-gradient">
-                    <div class="imagegrad">
-                        <img src="images/msu-fishing.jpg" alt="imgur">
-                    </div>
-                    <span class="card-title">Michigan State Fishing Club</span>
-                </div>
-                <div class="card-content">
-                    <p>Director of Social Media</p>
-                </div>
-                <div class="card-action">
-                    <a href="https://www.tonysulfaro.com/MSUfishing/" target="_blank" rel="noopener">Organization Link</a>
-                </div>
-            </div>
+        <div class="nav">
+            <p><a href="#">Home</a></p>
+            <p><a href="#about">About</a></p>
+            <p><a href="#projects">Projects</a></p>
+            <p><a href="#coursework">Coursework</a></p>
+            <p><a href="#affiliations">Affiliations</a></p>
+            <p><a href="images/SulfaroAnthony.pdf" target="_blank" rel="noopener">Resume</a></p>
         </div>
-        <div class="col s12 m6 l4">
-            <div class="card small">
-                <div class="card-image img-gradient">
-                    <div class="imagegrad">
-                        <img src="images/sh.png" alt="imgur">
-                    </div>
-                    <span class="card-title">Spartan Hackers</span>
-                </div>
-                <div class="card-content">
-                    <p>Hacker</p>
-                </div>
-                <div class="card-action">
-                    <a href="https://spartanhackers.github.io/" target="_blank" rel="noopener">Organization Link</a>
-                </div>
-            </div>
+
+    </div>
+
+    <div class="container">
+
+        <div id="about">
+            <h1>About</h1>
+            <p>Hello There, My name is Tony and I am a Software Engineer in East Lansing, Michigan. I love working with data using APIs and creating cool things that can leverage them.</p>
+            <p>I am also an avid golfer and fly fisherman.</p>
+            <p>Please feel free to demo some of the neat things I've made in the past couple of years!</p>
         </div>
-    </div>
 
-    <br>
-    <div id="programming languages" class="selection scrollspy container">
-        <h4>Programming Languages and Technologies</h4>
-        <ul>
-            <li>
-                <a class="waves-effect waves-light btn grey darken-1">Python</a>
-                <a class="waves-effect waves-light btn grey darken-1">R</a>
-                <a class="waves-effect waves-light btn grey darken-1">C++</a>
-                <a class="waves-effect waves-light btn grey darken-1">Java</a>
-                <a class="waves-effect waves-light btn grey darken-1">C# + WPF</a>
-                <a class="waves-effect waves-light btn grey darken-1">Node.js</a>
-                <a class="waves-effect waves-light btn grey darken-1">Vanilla JS</a>
-                <a class="waves-effect waves-light btn grey darken-1">MSSQL</a>
-                <a class="waves-effect waves-light btn grey darken-1">Sqlite</a>
-                <a class="waves-effect waves-light btn grey darken-1">HTML5/CSS3</a>
-            </li>
-        </ul>
-    </div>
+        <div id="projects">
+            <h1>Projects</h1>
 
-    <br>
-    <div id="design patterns" class="selection scrollspy container">
-        <ul class="collection with-header">
-            <li class="collection-header">
-                <h4>Program Design Patterns</h4>
-            </li>
-            <li class="collection-item">Object-Oriented Programming</li>
-            <li class="collection-item">MVVM</li>
-        </ul>
-    </div>
+        <div class="card-container">
 
-    <br>
-    <div class="row">
-        <div id="projects" class="selection scrollspy container">
-            <h4>Projects</h4>
-
-            <div class="col s12 m6 l4">
-                <div class="card large">
-                    <div class="card-image">
-                        <div class="imagegrad">
-                            <img src="images/sql.png" alt="sqlpng">
-                        </div>
-                        <span class="card-title">SQL Search Importer</span>
-                    </div>
+            <a href="https://github.com/tonysulfaro/SQL-Search-Importer" target="_blank" rel="noopener">
+                <div class="rectangle">
+                    <!-- <p><img src="images/sql.png" alt="sql-database"></p> -->
                     <div class="card-content">
+                        <h2>SQL Search Importer</h2>
                         <p>Getting dirty data in and out of a database can be difficult. I made this tool to make it easier to manage datasets. Utilizes C#, WPF, and MSSQL.</p>
                     </div>
-                    <div class="card-action">
-                        <a href="https://github.com/tonysulfaro/SQL-Search-Importer" target="_blank" rel="noopener">Github Link</a>
-                    </div>
                 </div>
-            </div>
+            </a>
+            
 
-            <div class="col s12 m6 l4">
-                <div class="card large">
-                    <div class="card-image">
-                        <div class="imagegrad">
-                            <img src="images/msu-fishing.jpg" alt="msufishinggroup">
-                        </div>
-                        <span class="card-title">MSU Fishing Site</span>
-                    </div>
+            <a href="https://www.tonysulfaro.com/MSUfishing/" target="_blank" rel="noopener">
+                <div class="rectangle">
                     <div class="card-content">
+                        <h2>MSU Fishing Site</h2>
                         <p>The Michigan State Fishing Club's website wasn't looking too hot so I made one.</p>
                     </div>
-                    <div class="card-action">
-                        <a href="https://www.tonysulfaro.com/MSUfishing/" target="_blank" rel="noopener">Page Link</a>
-                    </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="col s12 m6 l4">
-                <div class="card large">
-                    <div class="card-image img-gradient">
-                        <div class="imagegrad">
-                            <img src="images/js.png" alt="js">
-                        </div>
-                        <span class="card-title">TODO List</span>
-                    </div>
+            
+            <a href="https://codepen.io/tonysulfaro/pen/xaKJog" target="_blank" rel="noopener">
+                <div class="rectangle">
                     <div class="card-content">
+                        <h2>TODO List</h2>
                         <p>Using VanillaJS I was able to learn how the DOM works and make a todo application.</p>
                     </div>
-                    <div class="card-action">
-                        <a href="https://codepen.io/tonysulfaro/pen/xaKJog" target="_blank" rel="noopener">Codepen Link</a>
-                    </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="col s12 m6 l4">
-                <div class="card large">
-                    <div class="card-image img-gradient">
-                        <div class="imagegrad">
-                            <img src="images/Imgur_icon.svg.png" alt="imgur">
-                        </div>
-                        <span class="card-title">Imgur Scraper</span>
-                    </div>
+            
+            <a href="https://github.com/tonysulfaro/Imgur-Scraper" target="_blank" rel="noopener">
+                <div class="rectangle">
                     <div class="card-content">
+                        <h2>Imgur Scraper</h2>
                         <p>Wanted to get to know the Imgur API so I made a Python app to get images using the official API library!</p>
                     </div>
-                    <div class="card-action">
-                        <a href="https://github.com/tonysulfaro/Imgur-Scraper" target="_blank" rel="noopener">Github Link</a>
-                    </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="col s12 m6 l4">
-                <div class="card large">
-                    <div class="card-image img-gradient">
-                        <div class="imagegrad">
-                            <img src="images/spotify.png" alt="imgur">
-                        </div>
-                        <span class="card-title">Music Library</span>
-                    </div>
+            
+            <a href="https://github.com/tonysulfaro/MI-250/tree/master/Projects/music-library" target="_blank" rel="noopener">
+                <div class="rectangle">
                     <div class="card-content">
+                        <h2>Music Library</h2>
                         <p>Using Python and the Spotify API I made a web app that lets users search for their favorite artists/albums/playlists and save them to their own library.</p>
                     </div>
-                    <div class="card-action">
-                        <a href="https://github.com/tonysulfaro/MI-250/tree/master/Projects/music-library" target="_blank" rel="noopener">Github Link</a>
-                    </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="col s12 m6 l4">
-                <div class="card large">
-                    <div class="card-image img-gradient">
-                        <div class="imagegrad">
-                            <img src="images/cooking-colleague.jpg" alt="imgur">
-                        </div>
-                        <span class="card-title">Cooking Colleague</span>
-                    </div>
+            <a href="https://www.tonysulfaro.com/Cooking-Colleague-Client/index.html" target="_blank" rel="noopener">
+                <div class="rectangle">
+                    <!-- <p><img src="images/cooking-colleague.jpg" alt="cooking-items"></p> -->
                     <div class="card-content">
+                        <h2>Cooking Colleague</h2>
                         <p>While attending SpartaHack V I created the frontend interface for our hack that lets users search and follow along to recipes.</p>
                     </div>
-                    <div class="card-action">
-                        <a href="https://www.tonysulfaro.com/Cooking-Colleague-Client/index.html" target="_blank" rel="noopener">Codepen Link</a>
-                    </div>
                 </div>
-            </div>
+            </a>   
 
         </div>
-    </div>
+        </div>
 
-    <br>
-    <div id="coursework" class="selection scrollspy">
-        <div class="container">
+        <div id="coursework">
+            <h1>Coursework</h1>
 
-            <h4>Computer Science Coursework</h4>
-            <div class="card grey darken-1 ">
-                <div class="card-content white-text ">
-                    <span class="card-title">CSE 231 - Python</span>
-                    <p>This was my first programming class at Michigan State in Python. I learned quite a bit about data structures and ingesting data from a flat file. The last two projects were games which were pretty cool because they utilized classes to store game data.</p>
-                </div>
-                <!--
-                <div class="card-action">
-                    <a href="https://github.com/tonysulfaro/CSE-231" target="_blank" rel="noopener">Github Link</a>
-                </div>
--->
-            </div>
+            <div class="card-container">
 
-            <div class="card grey darken-1">
-                <div class="card-content white-text">
-                    <span class="card-title">CSE 232 - C++</span>
-                    <p>Overall, this is similar in structure to CSE 231 but in C++! One of the most challenging things I learned was how to use pointers and preventing memory leaks in my programs. Still the same flat file IO but using vectors and then with my own vector class and linked lists.</p>
-                </div>
-                <!--
-                <div class="card-action ">
-                    <a href="https://github.com/tonysulfaro/CSE-232" target="_blank" rel="noopener">Github Link</a>
-                </div>
--->
-            </div>
-
-            <div class="card grey darken-1">
-                <div class="card-content white-text">
-                    <span class="card-title">CSE 260 - Discrete Structures</span>
-                    <p>This class gave me even more experience with computational theory including topics like data structures, algorithms, and finite state automata.</p>
-                </div>
-            </div>
-            <!--
-                    <div class="col s12 m4">
-                        <div class="card grey darken-1">
-                            <div class="card-content white-text">
-                                <span class="card-title">CSE 320 - Computer Organization and Architecture</span>
-                                <p>More of a hybrid of mathematics and programming, this class got down into the nitty gritty details of how a microprocessor handles instructions. Fundamentals of circuit design are also covered in this course.</p>
-                            </div>
-                            <div class="card-action ">
-                                <a href="https://github.com/tonysulfaro/CSE-320" target="_blank">Github Link</a>
-                            </div>
-                        </div>
-                    </div>
--->
-            <div class="card grey darken-1">
-                <div class="card-content white-text">
-                    <span class="card-title">CSE 331 - Algorithms and Data Structures</span>
-                    <p>Who doesn't love some algorithms? This Python course focused solely on analyzing, designing, and implementing algorithms and making them more efficient. Some extra math is mixed in here as well.</p>
-                </div>
-                <!--
-                <div class="card-action ">
-                    <a href="https://github.com/tonysulfaro/CSE-331" target="_blank" rel="noopener">Github Link</a>
-                </div>
--->
-            </div>
-
-            <div class="card grey darken-1">
-                <div class="card-content white-text">
-                    <span class="card-title">CSE 335 - Object-Oriented Software Development (Currently Taking) </span>
-                    <p>Utilizing C++ this class focuses solely on the design and implementation of large programs using OOP.</p>
-                </div>
-                <!--
-                <div class="card-action ">
-                    <a href="https://github.com/tonysulfaro/CSE-335" target="_blank" rel="noopener">Github Link</a>
-                </div>
--->
-            </div>
-
-            <div class="card grey darken-1">
-                <div class="card-content white-text">
-                    <span class="card-title">CSE 480 - Database Systems (Currently Taking) </span>
-                    <p>Storage of and access to physical databases including indexing, hashing, and range accesses. Relational data models, database design principles, query languages, query optimization, transaction processing, and recovery techniques. Object-oriented and distributed databases.</p>
-                </div>
-                <!--
-                <div class="card-action ">
-                    <a href="https://github.com/tonysulfaro/CSE-320" target="_blank">Github Link</a>
-                </div>
--->
-            </div>
-
-            <br>
-            <h4>Media and Information Coursework</h4>
-            <div class="card grey darken-1">
-                <div class="card-content white-text">
-                    <span class="card-title">MI 250 - Applied Programming</span>
-                    <p>This course is outside of the college of engineering and focuses less on the depth of programming in Python more on the applications pertaining to web development. I have a couple of projects on here utilizing Requests to interface with existing APIs and some others that extend the BaseHTTPRequestHandler to create an API and ones that also use Flask.</p>
-                </div>
-                <!--
-                <div class="card-action ">
-                    <a href="https://github.com/tonysulfaro/MI-250" target="_blank" rel="noopener">Github Link</a>
-                </div>
--->
-            </div>
-
-            <div class="card grey darken-1">
-                <div class="card-content white-text">
-                    <span class="card-title">MI 320 - Reasoning with Data (Currently Taking) </span>
-                    <p>This class focuses on deriving statistics and generating reporting in R through statistics such as means, standard deviations, contingency tables, and hypothesis tests. The first couple of labs are R script files while the rest are R Markdown files.</p>
-                </div>
-                <div class="card-action">
-                    <a href="/data-reports/comics.html" target="_blank" rel="noopener">Gender In Comics</a>
-                    <a href="/data-reports/crime-data.html" target="_blank" rel="noopener">Crime Rates</a>
-                    <a href="/data-reports/titanic.html" target="_blank" rel="noopener">Titanic Analysis</a>
-                    <a href="/data-reports/tornadoes.html" target="_blank" rel="noopener">Tornadoes</a>
-                </div>
-                <!--
-<div class="card-action ">
-    <a href="https://github.com/tonysulfaro/MI-320" target="_blank" rel="noopener">Github Link</a>
-</div>
--->
             </div>
         </div>
+
+        <div id="affiliations">
+                <h1>Affiliations</h1>
+    
+                <div class="card-container">
+
+                        <a href="https://msufishing.org" target="_blank" rel="noopener">
+                            <div class="rectangle">
+                                <!-- <p><img src="images/sql.png" alt="sql-database"></p> -->
+                                <div class="card-content">
+                                    <h2>MSU Fishing Club</h2>
+                                    <p>Director of Social Media</p>
+                                    <p>The goal of the MSU Fishing Club is to connect fellow spartan anglers while at school.</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="https://spartanhackers.github.io" target="_blank" rel="noopener">
+                            <div class="rectangle">
+                                <!-- <p><img src="images/sql.png" alt="sql-database"></p> -->
+                                <div class="card-content">
+                                    <h2>Spartan Hackers</h2>
+                                    <p>Hacker</p>
+                                    <p>This is our student-run CS club at Michigan State. We attend hackathons throughout the midwest.</p>
+                                </div>
+                            </div>
+                        </a>
+    
+                </div>
+            </div>
+
     </div>
 
-    <script src="script.js"></script>
-    <!-- Javascript for materialize CSS -->
-    <script src="/styles/materialize/js/materialize.js"></script>
+    <footer>
+
+        <div class="footer-social column">
+            <h1>Social Links</h1>
+            <p><a href="https://github.com/tonysulfaro" target="blank">Github</a></p>
+            <p><a href="https://github.com/tonysulfaro" target="blank">LinkedIn</a></p>
+            <p><a href="https://github.com/tonysulfaro" target="blank">DevPost</a></p>
+        </div>
+
+        <div class="footer-about column">
+            <h1>About</h1>
+        </div>
+
+    </footer>
+
 </body>
-<footer class="page-footer blue darken-2">
-    <div class="container">
-        <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">Social Links</h5>
-                <p class="grey-text text-lighten-4">Follow me on various social media platforms</p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                    <li><a class="grey-text text-lighten-3" href="https://github.com/tonysulfaro/" target="_blank" rel="noopener">Github</a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/anthonysulfaro/" target="_blank" rel="noopener">LinkedIn</a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://twitter.com/tony116523" target="_blank" rel="noopener">Twitter</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="footer-copyright">
-        <div class="container">
-            Created By Tony Sulfaro - 2018
-        </div>
-    </div>
-</footer></html>
+
+</html>
