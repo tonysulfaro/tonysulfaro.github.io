@@ -83,13 +83,13 @@ footer {
     flex-wrap: wrap;
 }
 
-.column {
+.footer-column {
     padding: 1em;
     width: 100%;
     max-width: 500px;
 }
 
-.column p {
+.footer-column p {
     margin: 1em 0 0 0;
 }
 
@@ -135,7 +135,7 @@ footer {
         margin: 0;
     }
 
-    .rectangle {
-        width: 500px;
+    .list-item, .card {
+        margin: 1em 0 1em 0;
     }
   }
