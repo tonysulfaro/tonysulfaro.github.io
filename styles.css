@@ -110,3 +110,12 @@ footer {
 .column p {
     margin: 1em 0 0 0;
 }
+
+.list-item {
+    background-color: #424242;
+    overflow: hidden;
+    color: white;
+    padding: 1em;
+    border-radius: 5px;
+    margin: 2em 2em 0 0;
+}
