@@ -139,18 +139,22 @@ footer {
     opacity: 0.7;
 }
 
-/* menu to show and hide nav on mobile */
-#hamburger-menu {
-    position: relative;
-    bottom: 50%;
-    height: 50px;
+#nav-toggle {
     background-color: #14587D;
+    position: fixed;
+    width: 0%;
+    min-height: 50px;
+}
+
+.hamburger-menu {
+    padding: 1em;
 }
 
 .hamburger-bar {
-    height: 5px;
     width: 30px;
-    background-color: red;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 5px;
 }
 
 /* mobile layout */
@@ -162,6 +166,21 @@ footer {
         padding-bottom: 2em;
     }
 
+    #sidenav {
+        display: none;
+    }
+
+    #mobile-sidenav {
+        margin: 0;
+        height: 0;
+        padding: 0;
+        visibility: hidden;
+    }
+
+    #nav-toggle {
+        width: 100%;
+    }
+
     .container, footer{
         margin: 0;
     }
@@ -169,4 +188,12 @@ footer {
     .list-item, .card {
         margin: 1em 0 1em 0;
     }
+
   }
+
+@media screen and (max-width: 600px) {
+    
+    .sidenav {
+        height: 100%;
+    }
+}

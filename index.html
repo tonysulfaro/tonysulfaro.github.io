@@ -14,16 +14,35 @@
     <link rel="stylesheet" href="styles.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134217303-2"></script>
-    <script src="script.js"></script>
 </head>
 
 <body>
 
-    <!-- <div id="hamburger-menu" onclick="toggleNav();">
+    <div id="nav-toggle">
+
+        <!-- <button onclick="toggleNav();">Toggle</button> -->
+
+        <div id="hamburger-icon" class="hamburger-menu">
             <div class="hamburger-bar"></div>
             <div class="hamburger-bar"></div>
             <div class="hamburger-bar"></div>
-    </div> -->
+        </div>
+
+            <div id="mobile-sidenav" class="sidenav">
+    
+                    <p class="profile-img"><img src="images/portrait.jpg"></p>
+                    <h1>Tony Sulfaro</h1>
+            
+                    <div class="nav">
+                        <p><a href="#about">About</a></p>
+                        <p><a href="#projects">Projects</a></p>
+                        <p><a href="#coursework">Coursework</a></p>
+                        <p><a href="#affiliations">Affiliations</a></p>
+                        <p><a href="images/SulfaroAnthony.pdf" target="_blank" rel="noopener">Resume</a></p>
+                    </div>
+            
+                </div>
+    </div>
 
     <div id="sidenav" class="sidenav">
     
@@ -201,5 +220,5 @@
     </footer>
 
 </body>
-
+<script src="script.js"></script>
 </html>
