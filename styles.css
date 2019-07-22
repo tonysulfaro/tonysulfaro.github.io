@@ -107,18 +107,33 @@ footer {
 }
 
 .card {
-    background-color: #424242;
-    overflow: hidden;
-    color: white;
-    padding: 1em;
-    border-radius: 5px;
-    margin: 2em 2em 0 0;
-    max-width: 400px;
     height: 200px;
-    /* temp background */
-    background: linear-gradient(rgba(255, 255, 255, 0.158), black), url('digital.jpg');
-    background-size: cover;
+    border-radius: 5px;
     overflow: hidden;
+    margin: 2em 2em 0 0;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.card-content {
+    position: absolute;
+    margin: 1em;
+}
+
+.card-gradient {
+    height: 200px;
+    position: absolute;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.158), black);
+    border-radius: 5px;
+}
+
+.card, .card-gradient {
+    width: 400px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
 }
 
 .list-container{
@@ -162,6 +177,14 @@ footer {
     margin: 4px;
 }
 
+#nav-button {
+    width: 30px;
+    height: 30px;
+    background-color: #14587D;
+    border: none;
+    color: #ffffff;
+}
+
 /* mobile layout */
 @media screen and (max-width: 600px) {
 
@@ -191,8 +214,13 @@ footer {
         margin: 0;
     }
 
-    .list-item, .card {
+    .card, .card-gradient {
+        width: 300px;
+    }
+
+    .list-item {
         margin: 1em 0 1em 0;
+        width: 90%;
     }
 
   }
@@ -204,10 +232,12 @@ footer {
     }
 }
 
-#nav-button {
-    width: 30px;
-    height: 30px;
-    background-color: #14587D;
-    border: none;
+.test-card {
+    width: 400px; 
+    height: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 2em 2em 0 0;
     color: #ffffff;
 }
+
