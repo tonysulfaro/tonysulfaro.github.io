@@ -2,8 +2,8 @@ console.log("hey, you're not supposed to be here");
 
 var toggleCount = 0;
 
-// var hamburger = document.getElementById('hamburger-icon');
-// hamburger.addEventListener('click', toggleNav());
+var hamburger = document.getElementById('hamburger-icon');
+//hamburger.addEventListener('click', toggleNav());
 
 function toggleNav() {
 

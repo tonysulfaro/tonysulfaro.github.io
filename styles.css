@@ -64,7 +64,7 @@ a {
 
 .container {
     margin-left: 250px;
-    padding: 2em;
+    padding: 0 2em 2em 2em;
 }
 
 
@@ -73,13 +73,18 @@ a {
     flex-wrap: wrap;
 }
 
-.container h1, p {
+.container p {
     margin: 1em 0 0 0;
+}
+
+.content {
+    padding-top: 65px;
 }
 
 footer {
     background-color: #424242;
-    height: 250px;
+    height: auto;
+    min-height: 250px;
     margin-left: 250px;
     padding: 1em;
     color: white;
@@ -152,9 +157,9 @@ footer {
 
 .hamburger-bar {
     width: 30px;
-    height: 5px;
+    height: 2px;
     background-color: #ffffff;
-    margin: 5px;
+    margin: 4px;
 }
 
 /* mobile layout */

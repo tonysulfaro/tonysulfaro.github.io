@@ -16,7 +16,7 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134217303-2"></script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".mobile-nav" data-offset="50">
 
     <div id="nav-toggle">
 
@@ -28,8 +28,9 @@
             <div class="hamburger-bar"></div>
         </div>
 
-            <div id="mobile-sidenav" class="sidenav">
-    
+           <nav class="mobile-nav">
+                <div id="mobile-sidenav" class="sidenav">
+        
                     <p class="profile-img"><img src="images/portrait.jpg"></p>
                     <h1>Tony Sulfaro</h1>
             
@@ -42,6 +43,7 @@
                     </div>
             
                 </div>
+           </nav>
     </div>
 
     <div id="sidenav" class="sidenav">
@@ -61,14 +63,14 @@
 
     <div class="container">
 
-        <div id="about">
+        <div id="about" class="content">
             <h1>About</h1>
             <p>Hello There, My name is Tony and I am a Software Engineer in East Lansing, Michigan. I love working with data using APIs and creating cool things that can leverage them.</p>
             <p>I am also an avid golfer and fly fisherman.</p>
             <p>Please feel free to demo some of the neat things I've made in the past couple of years!</p>
         </div>
 
-        <div id="projects">
+        <div id="projects" class="content">
             <h1>Personal Projects</h1>
 
         <div class="card-container">
@@ -125,7 +127,7 @@
         </div>
         </div>
 
-        <div id="coursework">
+        <div id="coursework" class="content">
             <h1>Computer Science Coursework</h1>
 
             <div class="list-container">
@@ -174,7 +176,7 @@
             </div>
         </div>
 
-        <div id="affiliations">
+        <div id="affiliations" class="content">
                 <h1>University Affiliations</h1>
     
                 <div class="card-container">
