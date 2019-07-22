@@ -9,7 +9,7 @@ document.addEventListener('click', function(e){
 },false);
 
 function toggleNav() {
-    
+
     toggleCount ++;
 
     var nav = document.getElementById('mobile-sidenav');
@@ -18,7 +18,7 @@ function toggleNav() {
     if(nav.style.visibility == 'hidden' | toggleCount === 1){
         nav.style.visibility = 'visible';
         nav.style.margin = 0;
-        nav.style.padding = '4em 0 2em 0';
+        nav.style.padding = '0 0 2em 0';
         nav.style.height = '100%';
     }
     // collapse elements
