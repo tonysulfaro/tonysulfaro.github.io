@@ -202,3 +202,11 @@ footer {
         height: 100%;
     }
 }
+
+#nav-button {
+    width: 30px;
+    height: 30px;
+    background-color: #14587D;
+    border: none;
+    color: #ffffff;
+}

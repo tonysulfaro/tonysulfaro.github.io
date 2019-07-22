@@ -2,16 +2,17 @@ console.log("hey, you're not supposed to be here");
 
 var toggleCount = 0;
 
-var hamburger = document.getElementById('hamburger-icon');
-//hamburger.addEventListener('click', toggleNav());
+document.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+        toggleNav();
+    }
+},false);
 
 function toggleNav() {
-
-    console.log('toggling nav');
+    
     toggleCount ++;
 
     var nav = document.getElementById('mobile-sidenav');
-    console.log(nav);
 
     // not collapsed yet
     if(nav.style.visibility == 'hidden' | toggleCount === 1){
