@@ -209,6 +209,7 @@ footer {
 
     #nav-toggle {
         width: 100%;
+        z-index: 2;
     }
 
     .container, footer{
