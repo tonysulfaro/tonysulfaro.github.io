@@ -209,6 +209,7 @@ footer {
 
     #nav-toggle {
         width: 100%;
+        /* this is hacky but it works */
         z-index: 2;
     }
 
