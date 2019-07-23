@@ -15,7 +15,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #14587D;
+    background-color: #1976d2;
     overflow-x: hidden;
     padding-top: 20px;
     text-align: center;
@@ -159,8 +159,26 @@ footer {
     opacity: 0.7;
 }
 
+.language-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.language-item {
+    width: 100px;
+    height: 50px;
+    background-color: #EF5350;
+    color: #ffffff;
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 1em 1em 1em 0;
+    text-align: center;
+    vertical-align: center;
+}
+
 #nav-toggle {
-    background-color: #14587D;
+    background-color: #1976d2;
     position: fixed;
     width: 0%;
     min-height: 50px;
@@ -180,7 +198,7 @@ footer {
 #nav-button {
     width: 30px;
     height: 30px;
-    background-color: #14587D;
+    background-color: #1976d2;
     border: none;
     color: #ffffff;
 }
