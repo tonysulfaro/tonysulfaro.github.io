@@ -285,11 +285,23 @@ footer {
         color: #e4e4e4;
     }
 
-    a {
-        color: #e39777;
+    h1, h2, a, p {
+        color: #e0e0e0;
     }
 
-    img {
-        filter: grayscale(30%);
+    .sidenav {
+        background-color: #0d47a1;
+    }
+
+    .card-gradient {
+        background-image: linear-gradient(rgb(122, 122, 122));
+    }
+
+    .list-item, footer {
+        background-color: #616161;
+    }
+
+    .profile-img {
+        filter: grayscale(40%);
     }
 }
