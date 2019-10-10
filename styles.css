@@ -289,7 +289,7 @@ footer {
         color: #e0e0e0;
     }
 
-    .sidenav {
+    .sidenav, #nav-button, #nav-toggle {
         background-color: #0d47a1;
     }
 
@@ -302,6 +302,6 @@ footer {
     }
 
     .profile-img {
-        filter: grayscale(40%);
+        filter: brightness(85%);
     }
 }
