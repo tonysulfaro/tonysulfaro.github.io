@@ -98,7 +98,7 @@ footer {
 .footer-column {
     padding: 1em;
     width: 100%;
-    max-width: 500px;
+    max-width: 350px;
 }
 
 .footer-column p {
@@ -285,11 +285,16 @@ footer {
         color: #e4e4e4;
     }
 
-    h1, h2, a, p {
+    h1,
+    h2,
+    a,
+    p {
         color: #e0e0e0;
     }
 
-    .sidenav, #nav-button, #nav-toggle {
+    .sidenav,
+    #nav-button,
+    #nav-toggle {
         background-color: #0d47a1;
     }
 
@@ -297,7 +302,8 @@ footer {
         background-image: linear-gradient(rgb(122, 122, 122));
     }
 
-    .list-item, footer {
+    .list-item,
+    footer {
         background-color: #616161;
     }
 
