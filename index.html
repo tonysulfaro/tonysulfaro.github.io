@@ -20,7 +20,7 @@
 </head>
 
 <body data-spy="scroll" data-target=".mobile-nav" data-offset="50">
-  <div id="nav-toggle">
+  <nav id="nav-toggle">
     <div id="hamburger-icon" class="hamburger-menu">
       <button id="nav-button" onclick="toggleNav();">&#9776;</button>
     </div>
@@ -38,13 +38,13 @@
         <p><a href="#coursework">Coursework</a></p>
         <p><a href="#affiliations">Affiliations</a></p>
         <p>
-          <a href="images/SulfaroAnthony.pdf" target="_blank" rel="noopener">Resume</a>
+          <a href="resume/SulfaroAnthony.pdf" target="_blank" rel="noopener">Resume</a>
         </p>
       </div>
     </div>
-  </div>
+  </nav>
 
-  <div id="sidenav" class="sidenav">
+  <nav id="sidenav" class="sidenav">
     <p class="profile-img">
       <img src="images/profile.jpeg" alt="tony sulfaro portrait" />
     </p>
@@ -57,13 +57,13 @@
       <p><a href="#coursework">Coursework</a></p>
       <p><a href="#affiliations">Affiliations</a></p>
       <p>
-        <a href="images/SulfaroAnthony.pdf" target="_blank" rel="noopener">Resume</a>
+        <a href="./resume/SulfaroAnthony.pdf" target="_blank" rel="noopener">Resume</a>
       </p>
     </div>
-  </div>
+  </nav>
 
-  <div class="container">
-    <div id="about" class="content">
+  <main class="container">
+    <section id="about" class="content">
       <h1>About</h1>
       <p>
         Hello There, My name is Tony and I am a Software Engineer in East
@@ -75,9 +75,9 @@
         Please feel free to demo some of the neat things I've made in the past
         couple of years!
       </p>
-    </div>
+    </section>
 
-    <div id="projects" class="content">
+    <section id="projects" class="content">
       <h1>Personal Projects</h1>
 
       <div class="card-container">
@@ -92,7 +92,7 @@
                   difficult. I made this tool to make it easier to manage
                   datasets.
                 </p>
-                <p>
+                <p class="project-technologies">
                   <i><strong>C#, WPF, MSSQL</strong></i>
                 </p>
               </div>
@@ -111,7 +111,7 @@
                   The Michigan State Fishing Club's website wasn't looking too
                   hot so I made one.
                 </p>
-                <p>
+                <p class="project-technologies">
                   <i><strong>HTML5, CSS3, VanillaJS</strong></i>
                 </p>
               </div>
@@ -130,7 +130,7 @@
                   As a team we worked with General Motors to elicit
                   requirements and then design a Hans-Free Driving System.
                 </p>
-                <p>
+                <p class="project-technologies">
                   <i><strong>HTML5, CSS3, VanillaJS</strong></i>
                 </p>
               </div>
@@ -149,7 +149,7 @@
                   class. A game where the user lights up all the squares by
                   placing lights.
                 </p>
-                <p>
+                <p class="project-technologies">
                   <i><strong>PHP, HTML5, CSS3, VanillaJS</strong></i>
                 </p>
               </div>
@@ -171,7 +171,7 @@
                   a WIP but uses the sportsdata.io and collegefootballdata
                   APIs to get data.
                 </p>
-                <p>
+                <p class="project-technologies">
                   <i><strong>HTML5, CSS3, VanillaJS</strong></i>
                 </p>
               </div>
@@ -192,7 +192,7 @@
                   up with one of my friends to launch a website where we could
                   sell products tailored to fishing on the Saginaw Bay.
                 </p>
-                <p>
+                <p class="project-technologies">
                   <i><strong>HTML5, CSS3, VanillaJS</strong></i>
                 </p>
               </div>
@@ -213,7 +213,7 @@
                   interface for our hack that lets users search and follow
                   along to recipes.
                 </p>
-                <p>
+                <p class="project-technologies">
                   <i><strong>HTML5, CSS3, VanillaJS</strong></i>
                 </p>
               </div>
@@ -232,7 +232,7 @@
                   Using VanillaJS I was able to learn how the DOM works and
                   make a todo application.
                 </p>
-                <p>
+                <p class="project-technologies">
                   <i><strong>HTML5, VanillaJS</strong></i>
                 </p>
               </div>
@@ -252,7 +252,7 @@
                   little things I make when rolling my own CSS. Usually, these
                   are cards or other elements that I make.
                 </p>
-                <p>
+                <p class="project-technologies">
                   <i><strong>HTML5, CSS3</strong></i>
                 </p>
               </div>
@@ -261,21 +261,6 @@
             <!-- https://pixabay.com/illustrations/logo-css-css3-icon-2582747 -->
           </div>
         </a>
-        <!-- 
-                <a href="https://github.com/tonysulfaro/Imgur-Scraper" target="_blank" rel="noopener">
-                    <div class="card">
-                        <div class="card-gradient">
-                            <div class="card-content">
-                                <h2>Imgur Scraper</h2>
-                                <p>Wanted to get to know the Imgur API so I made a Python app to get images using the
-                                    official
-                                    API library!</p>
-
-                            </div>
-                        </div>
-                        <img src="images/Imgur_icon.svg.png" alt="sql background">
-                    </div>
-                </a> -->
 
         <a href="https://github.com/tonysulfaro/MI-250/tree/master/Projects/music-library" target="_blank"
           rel="noopener">
@@ -288,7 +273,7 @@
                   users search for their favorite artists/albums/playlists and
                   save them to their own library.
                 </p>
-                <p>
+                <p class="project-technologies">
                   <i><strong>Python3, HTML5, CSS3</strong></i>
                 </p>
               </div>
@@ -298,7 +283,7 @@
           </div>
         </a>
       </div>
-    </div>
+    </section>
 
     <div id="programming-languages" class="content">
       <h1>Programming Languages</h1>
@@ -364,7 +349,7 @@
       </ul>
     </div>
 
-    <div id="reports" class="content">
+    <section id="reports" class="content">
       <h1>R Markdown Reports</h1>
       <p>
         Here are some R Markdown reports that I did while analyzing data in my
@@ -403,9 +388,9 @@
           </div>
         </a>
       </div>
-    </div>
+    </section>
 
-    <div id="coursework" class="content">
+    <section id="coursework" class="content">
       <h1>Computer Science Coursework</h1>
 
       <div class="list-container">
@@ -529,13 +514,13 @@
           <p>
             Focusing more on the design nuances of web development, this
             course gave me more experience in creating intuitive UX designs
-            and making them accessible.
+            and making them accessible by writing semantically correct HTML.
           </p>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div id="affiliations" class="content">
+    <section id="affiliations" class="content">
       <h1>University Affiliations</h1>
 
       <div class="card-container">
@@ -573,8 +558,8 @@
           </div>
         </a>
       </div>
-    </div>
-  </div>
+    </section>
+  </main>
 
   <footer>
     <div class="footer-social footer-column">
