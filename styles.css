@@ -160,13 +160,17 @@ footer {
 }
 
 .card,
-.list-item {
-    transition: opacity 0.2s ease-in-out;
+.list-item,
+.language-item {
+    opacity: 0.7;
+    transition: all 0.2s ease-in-out;
 }
 
 .card:hover,
-.list-item:hover {
-    opacity: 0.7;
+.list-item:hover,
+.language-item:hover {
+    opacity: 1;
+    transform: translateY(-5px);
 }
 
 .language-container {
