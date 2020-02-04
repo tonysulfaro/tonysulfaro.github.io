@@ -140,10 +140,6 @@ footer {
     overflow: hidden;
 }
 
-.card img {
-    width: 100%;
-}
-
 .list-container {
     display: flex;
     flex-wrap: wrap;
@@ -253,6 +249,10 @@ footer {
     .container,
     footer {
         margin: 0;
+    }
+
+    .card-container {
+      justify-content: center;
     }
 
     .language-container {
