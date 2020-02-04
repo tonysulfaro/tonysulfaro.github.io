@@ -130,7 +130,7 @@ footer {
 .card-gradient {
     height: 225px;
     position: absolute;
-    background-image: linear-gradient(rgb(58, 58, 58), rgba(0, 0, 0, 0.5));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.5));
     border-radius: 5px;
 }
 
@@ -158,7 +158,7 @@ footer {
 .card,
 .list-item,
 .language-item {
-    opacity: 0.7;
+    opacity: 0.9;
     transition: all 0.2s ease-in-out;
 }
 
@@ -310,7 +310,7 @@ footer {
     }
 
     .card-gradient {
-        background-image: linear-gradient(rgb(122, 122, 122));
+        background-image: linear-gradient(rgb(0, 0, 0));
     }
 
     .list-item,
