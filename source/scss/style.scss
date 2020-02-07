@@ -34,7 +34,7 @@ body {
     text-decoration: none;
     color: white;
     &:hover {
-      color: #9e9e9e;
+      color: $a-hover;
     }
   }
   & p {
@@ -107,8 +107,9 @@ footer {
   }
   & a {
     text-decoration: none;
+    color: $body-color-dark;
     &:hover {
-      color: #9e9e9e;
+      color: $a-hover;
     }
   }
 }
