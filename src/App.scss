@@ -1,15 +1,51 @@
 .App {
-  text-align: center;
   min-height: 100vh;
-  min-width: 100vw;
+}
+
+.nav {
+  background-color: #3535ac;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  padding: 1em;
+}
+
+.nav > p {
+  margin: 0 2em;
+  padding: 0;
+  color: white;
 }
 
 .divider-primary {
   min-height: 50vh;
-  min-width: 100vw;
   background-color: #3535ac;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+}
+
+section {
+  padding: 4em;
+}
+
+.profile-container {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.profile-container * {
+  margin: 20px;
+}
+
+.profile-img {
+  max-height: 25vh;
+  border-radius: 50%;
+}
+
+footer {
+  padding: 4em;
+  background-color: #3535ac;
   color: white;
 }
