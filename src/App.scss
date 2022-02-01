@@ -1,28 +1,35 @@
 .App {
   min-height: 100vh;
-}
+  background-color: #212121;
 
-.nav {
-  background-color: #3535ac;
-  display: flex;
-  justify-content: space-evenly;
-  justify-content: center;
-  padding: 1em;
-}
-
-.nav > p {
-  margin: 0 2em;
-  padding: 0;
-  color: white;
+  &  section > h1,h2,h3,p,a {
+    color: #EEEEEE;
+  }
 }
 
 .divider-primary {
-  min-height: 50vh;
-  background-color: #3535ac;
+  min-height: 25vh;
+  background-color: #1e1e7e;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #EEEEEE;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+
+  & h1 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.skill-icons {
+  display: flex;
+  align-items: center;
 }
 
 section {
@@ -33,6 +40,7 @@ section {
   overflow: hidden;
   display: flex;
   align-items: center;
+  margin-bottom: -10vh;
 }
 
 .profile-container * {
@@ -40,12 +48,17 @@ section {
 }
 
 .profile-img {
-  max-height: 25vh;
+  max-height: 15vh;
   border-radius: 50%;
 }
 
 footer {
-  padding: 4em;
-  background-color: #3535ac;
-  color: white;
+  padding:  0 4em 4em 4em;
+  background-color: #1e1e7e;
+  color: #EEEEEE;
+  margin-top: -1em;
+
+  & h2 {
+    margin: 0;
+  }
 }
