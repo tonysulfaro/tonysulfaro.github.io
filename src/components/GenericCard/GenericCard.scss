@@ -1,0 +1,35 @@
+.card {
+  height: 225px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 2em 2em 0 0;
+  color: #fff;
+
+  & img {
+    width: 100%;
+  }
+}
+
+.card-content {
+  position: absolute;
+  margin: 1em;
+  height: 85%;
+}
+
+.card-gradient {
+  height: 225px;
+  position: absolute;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.5));
+  border-radius: 5px;
+}
+
+.card,
+.card-gradient,
+.card-content {
+  width: 400px;
+  overflow: hidden;
+}
+
+.project-technologies * {
+  margin-right: 20px;
+}

@@ -1,9 +1,13 @@
 import "./App.scss";
 import profile_img from "./assets/profile.jpg"
-import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter, DiPython } from "react-icons/all"
-import Card from "./components/Card/Card";
+import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/all"
+import { DiPython, SiCsharp, SiCplusplus, AiFillHtml5, DiSass, FaAngular, DiReact, AiOutlineConsoleSql } from 'react-icons/all'
+import GenericCard from "./components/GenericCard/GenericCard";
 
 function App() {
+
+  const personalProjects = [{ img_url: "http://placekitten.com/200/300", alt_text: "cat", title: "Test", body: "some really long text", technologies: ["a", "b", "c"] }];
+
   return (
     <div className="App">
       <div className="divider-primary">
@@ -36,21 +40,36 @@ function App() {
       <section id="skills">
         <h2>skills</h2>
         <div className="skill-icons">
-          <p><DiPython size="3em" /> Python</p>
+          <p><DiPython size="3em" /></p>
+          <p><SiCsharp size="3em" /></p>
+          <p><SiCplusplus size="3em" /></p>
+          <p><AiFillHtml5 size="3em" /></p>
+          <p><DiSass size="3em" /></p>
+          <p><FaAngular size="3em" /></p>
+          <p><DiReact size="3em" /></p>
+          <p><AiOutlineConsoleSql size="3em" /></p>
         </div>
       </section>
 
       <section id="personal-projects">
         <h2>Personal Projects</h2>
-        <Card></Card>
+        <div className="card-container">
+          {personalProjects.map((project) => (
+            <GenericCard img_url={project.img_url} alt_text={project.alt_text} title={project.title} body={project.body} technologies={project.technologies} />
+          ))}
+        </div>
       </section>
 
       <section id="professional-experience">
         <h2>Professional Experience</h2>
       </section>
 
-      <section id="fun">
+      <section id="hobbies">
         <h2>Some of my Hobbies</h2>
+      </section>
+
+      <section id="tunes">
+        <h2>What I've Been Listening to Lately</h2>
       </section>
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
