@@ -1,8 +1,9 @@
 import "./App.scss";
-import profile_img from "./assets/profile.jpg"
+import profile_img from "./assets/profile.png"
 import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/all"
 import { DiPython, SiCsharp, SiCplusplus, AiFillHtml5, DiSass, FaAngular, DiReact, AiOutlineConsoleSql } from 'react-icons/all'
 import GenericCard from "./components/GenericCard/GenericCard";
+import ExperienceTimeline from "./components/ExperienceTimeline/ExperienceTimeline";
 
 function App() {
 
@@ -38,7 +39,7 @@ function App() {
       </svg>
 
       <section id="skills">
-        <h2>skills</h2>
+        <h2>Skills</h2>
         <div className="skill-icons">
           <p><DiPython size="3em" /></p>
           <p><SiCsharp size="3em" /></p>
@@ -62,6 +63,7 @@ function App() {
 
       <section id="professional-experience">
         <h2>Professional Experience</h2>
+        <ExperienceTimeline></ExperienceTimeline>
       </section>
 
       <section id="hobbies">
