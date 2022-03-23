@@ -2,8 +2,13 @@
   min-height: 100vh;
   background-color: #212121;
 
-  &  section > h1,h2,h3,p,a, div {
-    color: #EEEEEE;
+  & section > h1,
+  h2,
+  h3,
+  p,
+  a,
+  div {
+    color: #eeeeee;
   }
 }
 
@@ -13,13 +18,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #EEEEEE;
+  color: #eeeeee;
 }
 
-.social-icons{
+.social-icons {
   display: flex;
   justify-content: space-around;
   margin: 0;
+  padding-bottom: 10px;
 
   & h1 {
     margin: 0;
@@ -29,6 +35,7 @@
 
 .skill-icons {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
 }
@@ -41,7 +48,14 @@ section {
   overflow: hidden;
   display: flex;
   align-items: center;
-  margin-bottom: -10vh;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .profile-container * {
@@ -59,9 +73,9 @@ section {
 }
 
 footer {
-  padding:  0 4em 4em 4em;
+  padding: 0 4em 4em 4em;
   background-color: #1e1e7e;
-  color: #EEEEEE;
+  color: #eeeeee;
   margin-top: -1em;
 
   & h2 {

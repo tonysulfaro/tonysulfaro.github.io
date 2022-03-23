@@ -13,9 +13,9 @@ function App() {
     <div className="App">
       <div className="divider-primary">
         <div className="profile-container">
-          <p><img className="profile-img" src={profile_img}></img></p>
+          <p><img className="profile-img" src={profile_img} alt="picture_of_tony"></img></p>
           <div>
-            <h1>Hey There!👋, I'm Tony. Fullstack Engineer and Walleye Fisherman</h1>
+            <h1>Hey There!👋, I'm Tony. Fullstack Engineer, Golfer, and Fisherman</h1>
           </div>
           <div className="social-icons">
             <a href="https://github.com/tonysulfaro" rel="noreferrer noopener" target="_blank">
@@ -42,8 +42,8 @@ function App() {
         <h2>Skills</h2>
         <div className="skill-icons">
           <p><DiPython size="3em" /></p>
-          <p><SiCsharp size="3em" /></p>
           <p><SiCplusplus size="3em" /></p>
+          <p><SiCsharp size="3em" /></p>
           <p><AiFillHtml5 size="3em" /></p>
           <p><DiSass size="3em" /></p>
           <p><FaAngular size="3em" /></p>
