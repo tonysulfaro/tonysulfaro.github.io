@@ -62,7 +62,7 @@ function App() {
       </section>
 
       <section id="professional-experience">
-        <h2>Professional Experience</h2>
+        <h2>Recent Professional Experience</h2>
         <ExperienceTimeline></ExperienceTimeline>
       </section>
 
