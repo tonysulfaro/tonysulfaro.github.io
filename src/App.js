@@ -7,7 +7,7 @@ import ExperienceTimeline from "./components/ExperienceTimeline/ExperienceTimeli
 
 function App() {
 
-  const personalProjects = [{ img_url: "http://placekitten.com/200/300", alt_text: "cat", title: "Test", body: "some really long text", technologies: ["a", "b", "c"] }];
+  const personalProjects = [{ img_url: "http://placekitten.com/200/300", alt_text: "cat", title: "Fishing Recorder", body: "Plot where you catch fish on a map!", technologies: ["React", ".NET Core"] }];
 
   return (
     <div className="App">

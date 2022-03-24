@@ -50,14 +50,6 @@ section {
   align-items: center;
 }
 
-@media screen and (max-width: 768px) {
-  .profile-container {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
 .profile-container * {
   margin: 20px;
 }
@@ -80,5 +72,25 @@ footer {
 
   & h2 {
     margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skill-icons * {
+    margin: 10px;
+  }
+
+  .card-container {
+    justify-content: space-evenly;
+  }
+
+  section {
+    padding: 2em;
   }
 }
